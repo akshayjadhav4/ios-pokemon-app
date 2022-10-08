@@ -15,6 +15,8 @@
 		DB8E79C528F17EFF00378AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E79C428F17EFF00378AD5 /* Preview Assets.xcassets */; };
 		DB8E79CD28F17F7900378AD5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E79CC28F17F7900378AD5 /* Pokemon.swift */; };
 		DB8E79D028F182A700378AD5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DB8E79CF28F182A700378AD5 /* Kingfisher */; };
+		DBFB1AEF28F1A6AD00B9A50D /* PokemonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB1AEE28F1A6AD00B9A50D /* PokemonGridView.swift */; };
+		DBFB1AF128F1A9D100B9A50D /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB1AF028F1A9D100B9A50D /* PokemonDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB8E79C128F17EFF00378AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8E79C428F17EFF00378AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB8E79CC28F17F7900378AD5 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		DBFB1AEE28F1A6AD00B9A50D /* PokemonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGridView.swift; sourceTree = "<group>"; };
+		DBFB1AF028F1A9D100B9A50D /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				DB4AC31428F19ED000671193 /* PokemonCellView.swift */,
+				DBFB1AEE28F1A6AD00B9A50D /* PokemonGridView.swift */,
+				DBFB1AF028F1A9D100B9A50D /* PokemonDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,8 +186,10 @@
 			files = (
 				DB8E79C028F17EF500378AD5 /* ContentView.swift in Sources */,
 				DB4AC31528F19ED000671193 /* PokemonCellView.swift in Sources */,
+				DBFB1AEF28F1A6AD00B9A50D /* PokemonGridView.swift in Sources */,
 				DB8E79BE28F17EF500378AD5 /* pokemonAPIApp.swift in Sources */,
 				DB4AC31228F18D0800671193 /* PokemonViewModel.swift in Sources */,
+				DBFB1AF128F1A9D100B9A50D /* PokemonDetailView.swift in Sources */,
 				DB8E79CD28F17F7900378AD5 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

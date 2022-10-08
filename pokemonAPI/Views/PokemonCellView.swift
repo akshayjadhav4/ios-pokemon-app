@@ -31,8 +31,7 @@ struct PokemonCellView: View {
                         .padding(.vertical, 8)
                         .overlay(
                             RoundedRectangle(cornerRadius: 40).fill(Color.white.opacity(0.2))
-                                .frame(width: 100, height: 24)
-                        )
+                        ).frame(width: 100, height: 24)
                    
                     KFImage(URL(string: pokemon.imageUrl))
                         .resizable()
@@ -45,6 +44,7 @@ struct PokemonCellView: View {
             .clipShape(RoundedRectangle(cornerRadius: 30))
             .padding(.all,6)
             .shadow(color: .black, radius: 8, x: 8, y: 8)
+            .shadow(color: .white.opacity(0.2), radius: 10, x: -10, y: -10)
     }
 }
 
