@@ -11,6 +11,7 @@
 		DB8E79C028F17EF500378AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E79BF28F17EF500378AD5 /* ContentView.swift */; };
 		DB8E79C228F17EFF00378AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E79C128F17EFF00378AD5 /* Assets.xcassets */; };
 		DB8E79C528F17EFF00378AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E79C428F17EFF00378AD5 /* Preview Assets.xcassets */; };
+		DB8E79CD28F17F7900378AD5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E79CC28F17F7900378AD5 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DB8E79BF28F17EF500378AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB8E79C128F17EFF00378AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8E79C428F17EFF00378AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8E79CC28F17F7900378AD5 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DB8E79BC28F17EF500378AD5 /* pokemonAPI */ = {
 			isa = PBXGroup;
 			children = (
+				DB8E79CB28F17F5E00378AD5 /* Model */,
 				DB8E79BD28F17EF500378AD5 /* pokemonAPIApp.swift */,
 				DB8E79BF28F17EF500378AD5 /* ContentView.swift */,
 				DB8E79C128F17EFF00378AD5 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DB8E79C428F17EFF00378AD5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB8E79CB28F17F5E00378AD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E79CC28F17F7900378AD5 /* Pokemon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DB8E79C028F17EF500378AD5 /* ContentView.swift in Sources */,
 				DB8E79BE28F17EF500378AD5 /* pokemonAPIApp.swift in Sources */,
+				DB8E79CD28F17F7900378AD5 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
