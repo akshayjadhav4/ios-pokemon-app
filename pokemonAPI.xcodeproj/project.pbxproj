@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB4AC31228F18D0800671193 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AC31128F18D0800671193 /* PokemonViewModel.swift */; };
+		DB4AC31528F19ED000671193 /* PokemonCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4AC31428F19ED000671193 /* PokemonCellView.swift */; };
 		DB8E79BE28F17EF500378AD5 /* pokemonAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E79BD28F17EF500378AD5 /* pokemonAPIApp.swift */; };
 		DB8E79C028F17EF500378AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E79BF28F17EF500378AD5 /* ContentView.swift */; };
 		DB8E79C228F17EFF00378AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8E79C128F17EFF00378AD5 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		DB4AC31128F18D0800671193 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		DB4AC31428F19ED000671193 /* PokemonCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCellView.swift; sourceTree = "<group>"; };
 		DB8E79BA28F17EF500378AD5 /* pokemonAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemonAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8E79BD28F17EF500378AD5 /* pokemonAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonAPIApp.swift; sourceTree = "<group>"; };
 		DB8E79BF28F17EF500378AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DB4AC31328F19EB500671193 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB4AC31428F19ED000671193 /* PokemonCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DB8E79B128F17EF400378AD5 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		DB8E79BC28F17EF500378AD5 /* pokemonAPI */ = {
 			isa = PBXGroup;
 			children = (
+				DB4AC31328F19EB500671193 /* Views */,
 				DB4AC31028F18CDE00671193 /* ViewModel */,
 				DB8E79CB28F17F5E00378AD5 /* Model */,
 				DB8E79BD28F17EF500378AD5 /* pokemonAPIApp.swift */,
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8E79C028F17EF500378AD5 /* ContentView.swift in Sources */,
+				DB4AC31528F19ED000671193 /* PokemonCellView.swift in Sources */,
 				DB8E79BE28F17EF500378AD5 /* pokemonAPIApp.swift in Sources */,
 				DB4AC31228F18D0800671193 /* PokemonViewModel.swift in Sources */,
 				DB8E79CD28F17F7900378AD5 /* Pokemon.swift in Sources */,
